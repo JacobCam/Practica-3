@@ -95,6 +95,9 @@ nav a{
     color: aqua;
     }
 
-article h2{
-    color: yellow;
-    }
+dt {
+    padding: .60%;
+    width: 90%;
+    margin: auto;
+    color: white;
+}
