@@ -20,12 +20,60 @@
         </nav>
     </header>
 
-
-    <headear>
-        <h1>Mi Pagina Web...</h1>
-    </headear>
     <main >
+        <h1>Mi Pagina Web...</h1>
+
         <img class= "imga" src="imagenes/bobEsponja.webp" alt="bobEsponja">
+        <br>
+        <h1>Formulario sobre quien nos visita</h1>
+    <form>
+        <div>
+        <label for="Nombre">¿Cuál es tu nombre?</label>
+        <input type="text" name="Nombre" id="Nombre">
+        </div>
+
+        <div>
+        <label for="Videojuego">¿Te gustan los videojuegos?</label>
+        <input type="checkbox" name="Videojuego" id="Videojuego">
+        </div>
+
+        <div>
+        <label for="email">Correo:</label>
+        <input type="email" name="email" id="email">
+        </div>
+
+        <div>
+        <label for="follow">¿Desde cuándo sigues esta página?</label>
+        <input type="date" name="follow" id="follow">
+        </div>
+
+        <div>
+        <label for="passw">Crea una clave para futuras visitas:</label>
+        <input type="password" name="password" id="passw">
+        </div>
+
+        <div>
+        <label for="color">Color favorito:</label>
+        <input type="color" name="color" id="color">
+        </div>
+
+        <div>
+        <label for="foto">Sube una foto de perfil:</label>
+        <input type="file" name="foto" id="foto">
+        </div>
+
+        <div>
+        <label for="fav">¿Qué sección te gusta más?</label>
+        <select name="fav" id="fav">
+            <option>Videojuegos</option>
+            <option>Deportes</option>
+            <option>Películas</option>
+            <option>Setup Gamer</option>
+        </select>
+        </div>
+        
+        <button type="submit">Enviar Info</button>
+    </form>
     </main>
     <footer>
         <address>
