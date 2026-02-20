@@ -101,3 +101,7 @@ dt {
     margin: auto;
     color: white;
 }
+
+video {
+    width: 200px;
+}
